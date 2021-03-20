@@ -19,6 +19,18 @@
 .first-main {
     color: whitesmoke;
     width: 50%;
+    transition: 2s;
+}
+.first-main:hover {
+    color: rgb(105, 230, 68);
+}
+.first-main-tag {
+    transition: 3.5s;
+}
+.first-main-tag:hover {
+    font-size: 25px;
+    cursor: progress;
+    color: rgb(253, 47, 47);
 }
 .img-main {
     width: 50%;
@@ -97,6 +109,9 @@
     grid-column-gap: 5px;
     justify-content: center;
 }
+.skills:focus {
+    background-color: green;
+}
 @media (max-width: 520px) {
     .skills {
         padding-right: 1px;
@@ -112,11 +127,17 @@
     border: 1px solid white;
     border-radius: 7px;
 }
+.skills-bottom-html:hover {
+    background:rgb(228,77,38);
+}
 .skills-bottom-css {
     grid-row: 1;
     grid-column: 2/4;
     border: 1px solid white;
     border-radius: 7px;
+}
+.skills-bottom-css:hover {
+    background: rgb(38,77,228);
 }
 .skills-bottom-javascript {
     grid-row: 1;
@@ -124,11 +145,19 @@
     border: 1px solid white;
     border-radius: 7px;
 }
+.skills-bottom-javascript:hover {
+    color: black;
+    background: rgb(241,218,78);
+}
 .skills-bottom-reactjs {
     grid-row: 2;
     grid-column: 1;
     border: 1px solid white;
     border-radius: 7px;
+}
+.skills-bottom-reactjs:hover {
+    color: black;
+    background: rgb(97,218,251);
 }
 .skills-bottom-redux {
     grid-row: 2;
@@ -136,11 +165,17 @@
     border: 1px solid white;
     border-radius: 7px;
 }
+.skills-bottom-redux:hover {
+    background: rgb(165,147,224);
+}
 .skills-bottom-thunk {
     grid-row: 2;
     grid-column: 4;
     border: 1px solid white;
     border-radius: 7px;
+}
+.skills-bottom-thunk:hover {
+    background: rgb(112,71,181);
 }
 .skills-bottom-bootstrap {
     grid-row: 3;
@@ -148,11 +183,17 @@
     border: 1px solid white;
     border-radius: 7px;
 }
+.skills-bottom-bootstrap:hover {
+    background: rgb(118,15,240);
+}
 .skills-bottom-sass {
     grid-row: 3;
     grid-column: 2/4;
     border: 1px solid white;
     border-radius: 7px;
+}
+.skills-bottom-sass:hover {
+    background: rgb(206,103,154);
 }
 .skills-bottom-jquery {
     grid-row: 3;
@@ -160,11 +201,17 @@
     border: 1px solid white;
     border-radius: 7px;
 }
+.skills-bottom-jquery:hover {
+    background: rgb(33,172,226);
+}
 .skills-bottom-nodejs {
     grid-row: 4;
     grid-column: 1;
     border: 1px solid white;
     border-radius: 7px;
+}
+.skills-bottom-nodejs:hover {
+    background: rgb(62,134,61);
 }
 .skills-bottom-expressjs {
     grid-row: 4;
@@ -172,11 +219,18 @@
     border: 1px solid white;
     border-radius: 7px;
 }
+.skills-bottom-expressjs:hover {
+    color: black;
+    background: rgb(243,223,29);
+}
 .skills-bottom-sql {
     grid-row: 4;
     grid-column: 3;
     border: 1px solid white;
     border-radius: 7px;
+}
+.skills-bottom-sql:hover {
+    background: rgb(38,119,199);
 }
 .skills-bottom-mysql {
     grid-row: 4;
@@ -184,11 +238,17 @@
     border: 1px solid white;
     border-radius: 7px;
 }
+.skills-bottom-mysql:hover {
+    background: rgb(38,119,199);
+}
 .skills-bottom-git {
     grid-row: 5;
     grid-column: 1;
     border: 1px solid white;
     border-radius: 7px;
+}
+.skills-bottom-git:hover {
+    background: rgb(232,78,49);
 }
 .skills-bottom-github {
     grid-row: 5;
@@ -196,11 +256,18 @@
     border: 1px solid white;
     border-radius: 7px;
 }
+.skills-bottom-github:hover {
+    background: rgb(26,30,34);
+}
 .skills-bottom-gitlab {
     grid-row: 5;
     grid-column: 4;
     border: 1px solid white;
     border-radius: 7px;
+}
+.skills-bottom-gitlab:hover {
+    color: black;
+    background: rgb(252,163,37);
 }
 .skills-bottom-photoshop {
     grid-row: 6;
@@ -208,11 +275,17 @@
     border: 1px solid white;
     border-radius: 7px;
 }
+.skills-bottom-photoshop:hover {
+    background: rgb(16,17,38);
+}
 .skills-bottom-solver {
     grid-row: 6;
     grid-column: 3/5;
     border: 1px solid white;
     border-radius: 7px;
+}
+.skills-bottom-solver:hover {
+    background: rgb(218, 0, 0);
 }
 /* End of Skills */
 /* Contact */
